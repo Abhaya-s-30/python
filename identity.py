@@ -1,0 +1,11 @@
+a1=int(input("enter your first num:-"))
+a2=int(input("enter your second num:-"))
+print(a1,a2)
+print(a1 is a2)
+print(a1 is not a2)
+a1=input("enter first input:-")
+a2=input("enter second input:-")
+print(a1,a2)
+print(a1 is a2)
+print(a1 is not a2)
+

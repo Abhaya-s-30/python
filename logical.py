@@ -1,0 +1,6 @@
+a1=int(input("enter your first num:-"))
+a2=int(input("enter your second num:-"))
+print(a1,a2)
+print(a1>a2 and a1<a2)
+print(a1>a2 or a1<a2)
+print(not a2)

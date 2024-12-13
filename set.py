@@ -1,0 +1,15 @@
+set={"apple","orange","banana"}
+print("before adding elements:",set)
+set.add("cherry")
+set.add("blueberry")
+print("after adding:",set)
+set.update("grape","apple")
+print("updated set",set)
+set.remove("banana")
+print("after removing",set)
+for fruit in set:
+    print(fruit)
+set.discard("kiwi")
+print(set)
+set.remove("kiwi")
+print(set)
